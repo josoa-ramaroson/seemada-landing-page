@@ -86,7 +86,7 @@ function App() {
             </div>
 
             {/* Mobile menu button */}
-            <div className="lg:hidden">
+            <div className="lg:hidden" id="home">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className={`p-2 rounded-md ${isScrolled ? 'text-gray-800' : 'text-white'}`}
