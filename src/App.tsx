@@ -86,7 +86,7 @@ function App() {
             </div>
 
             {/* Mobile menu button */}
-            <div className="lg:hidden" id="home">
+            <div className="lg:hidden" >
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className={`p-2 rounded-md ${isScrolled ? 'text-gray-800' : 'text-white'}`}
@@ -130,7 +130,7 @@ function App() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/60" />
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-32">
-          <div className="max-w-4xl">
+          <div className="max-w-4xl" id="home">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Welcome to{' '}
               <span className="text-[#9E191E] px-2 py-1 rounded-sm">
